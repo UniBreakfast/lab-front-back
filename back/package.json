@@ -1,0 +1,16 @@
+{
+  "name": "lab-front-back",
+  "version": "1.0.0",
+  "description": "The database stores some information units (books, articles, etc.). Write a service that provides standard CRUD operations (getting all records, getting a record by ID, adding, updating and deleting records). Provide access to the database based on DAO principles.\r Organize the service based on REST principles. The service must transmit information in JSON format. Provide the ability to test the service using Postman.\r In addition to implementing standard CRUD operations, implement business logic that goes beyond these operations.\r Database - MongoDB or MySQL (optional).\r The service is implemented based on Node.js and Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
